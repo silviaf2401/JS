@@ -1,0 +1,28 @@
+* {
+ font-family: sans-serif;
+ }
+
+#rowcards {
+	width: 100%;
+	margin-left: 10px;
+	margin-right: 10px;
+	display: flex;
+	flex-direction: row;
+	margin-top: 30px;
+}
+
+.cards {
+	min-width: 123px;
+	min-height: 179px;
+	margin-left: 15px;
+}
+
+
+#card1, #card2, #card3, #card4, #card5, #card6 {
+	background-image: url('back.png');
+}
+
+input {
+	margin-left: 25px;
+	margin-top: 10px;
+}

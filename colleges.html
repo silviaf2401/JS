@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bay Area Colleges and Universities</title>
+	<link rel="stylesheet" href="colleges.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<script src ="colleges.js" defer></script>
+</head>
+<body>
+	<h1>Bay Area Colleges and Universities</h1>
+	<div id="underheader">
+		<div id="datasearchtables">
+		</div>
+		<div id="searchsection">
+			<h2>Search Criteria</h2>
+				<div id="schooltype">
+					<input type="radio" name="schooltype" value ="public" id="publicschool">
+					<label for="publicschool">Public</label>
+					<input type="radio" name="schooltype" value ="private" id="privateschool">
+					<label for="privateschool">Private</label>
+					<input type="radio" name="schooltype" value ="dontcare" id="dontcare">
+					<label for="dontcare">Don't care</label>
+				</div>
+				<div id="maxtuition">
+					<div>
+						<h3>Maximum Tuition</h3>
+						<h4>leave blank for don't care</h4>
+					</div>
+					<input type="text" id="maxtui"/>
+				</div>
+				<div id="maxhiSAT">
+					<div>		
+						<h3>Maximum High SAT</h3>
+						<h4>leave blank for don't care</h4>
+					</div>
+					<input type="text" id="maxhSAT"/>
+				</div>
+				<div id="minloSAT">	
+					<div>
+						<h3>Minimum Low SAT</h3>
+						<h4>leave blank for don't care</h4>	
+					</div>						
+					<input type="text" id="minlSAT"/>
+				</div>
+		<input type="Submit" id="updateButton" value="Update" onclick="updateTable()">	
+		</div>
+	</div>
+</body>
+</html>
